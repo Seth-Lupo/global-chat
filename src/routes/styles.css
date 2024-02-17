@@ -7,11 +7,27 @@ import "@fontsource/raleway"; */
     margin: 0;
     padding: 0;
     /* Change the font */
-    font-family: 'Chivo Mono', sans-serif;                                     
+    /* font-family: 'Chivo Mono', sans-serif;                                      */
     scroll-behavior: smooth;
     
 }
-
+#our_logo {
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: 1000;
+    padding: 20px;
+  }
 
 .header {
     background: #131313;
@@ -24,3 +40,35 @@ import "@fontsource/raleway"; */
     top: 0;
     z-index: 999;
 }
+
+.mobile-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-self: space-between;
+}
+
+.navbar_links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    text-decoration: none;
+    height: 100%;
+    transition: all .3s ease;
+
+  }
+  .navbar_item:hover{
+    color: #00d2ff;
+    transition: all .3s ease;
+  }
+
+  .navbar__toggle .bar{
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all .3s ease-in-out;
+    background: #fff;
+    
+  }
