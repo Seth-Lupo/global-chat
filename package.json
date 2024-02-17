@@ -10,6 +10,9 @@
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
+		"@fontsource/open-sans": "^5.0.23",
+		"@fontsource/raleway": "^5.0.16",
+		"@fontsource/roboto": "^5.0.8",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
@@ -21,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@svelte-web-fonts/google": "^1.0.4",
 		"firebase": "^9.23.0",
 		"sveltefire": "^0.4.5"
 	}
