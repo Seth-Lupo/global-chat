@@ -7,6 +7,8 @@
     import { SignedOut } from 'sveltefire';
 
 	import { getContext, setContext } from 'svelte';
+	
+	import './styles.css';
 
     const firebaseConfig = {
 		apiKey: "AIzaSyBoEKe4ADUmVm7vyag2AlNoR4Fe3THUQOo",
@@ -40,14 +42,15 @@
 	
     :root {
         font-family: "Raleway";
-        background-color: rgb(245 245 245);
+        
     }
 
-    :global(*) {
+    /* :global(*) {
         box-sizing: border-box;
 		margin: 0;
 		padding: 0;
-    }
+    } */
+
 
 </style>
 

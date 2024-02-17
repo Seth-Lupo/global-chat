@@ -1,6 +1,4 @@
-<script>
 
-</script>
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +30,7 @@
 </nav>
 
 <main class="app">
-	Brfian chat
+	
 	
     <div class = "body"> Who are we</div>
 </main>

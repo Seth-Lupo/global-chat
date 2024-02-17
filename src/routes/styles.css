@@ -1,0 +1,26 @@
+/* import "@fontsource/roboto";
+import "@fontsource/open-sans";
+import "@fontsource/raleway"; */
+/* background-color: rgb(245 245 245); */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Change the font */
+    font-family: 'Chivo Mono', sans-serif;                                     
+    scroll-behavior: smooth;
+    
+}
+
+
+.header {
+    background: #131313;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
