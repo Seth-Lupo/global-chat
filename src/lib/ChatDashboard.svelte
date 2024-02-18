@@ -57,6 +57,25 @@
     #linkDiv {
         display: flex;
         flex-direction: column;
+
+        margin: 1rem 0;
+    }
+
+    main{
+        margin: 1rem;
+        background-color: white;
+        box-shadow: 2px 2px 5px grey;
+        padding: 1rem;
+        width: fit-content;
+    }
+
+    #latestRoom {
+        font-size: 2rem;
+        margin: 3rem 0 ;
+    }
+
+    h4 {
+        font-size: 2rem;
     }
 
 
@@ -68,7 +87,7 @@
         
         {#if data.length > 0}
 
-            <a href="connect/{data.sort(sortingFunction)[0].chatroomID}">Latest Chat Room</a>
+            <a id="latestRoom" href="connect/{data.sort(sortingFunction)[0].chatroomID}">Latest ({secondsToDate(data.sort(sortingFunction)[0].date.seconds)})</a>
 
             <div id="linkDiv">
                 <h4>Past Chat Rooms</h4>

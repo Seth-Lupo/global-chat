@@ -39,6 +39,10 @@
         height: 10rem;
         display: flex;
         background-color: black;
+        justify-content: space-between;
+        padding: 2rem;
+        align-items: center;
+
     }
 
     #leftHeader {
@@ -46,11 +50,21 @@
     } 
 
     #rightHeader {
+        display: flex;
 
+
+    }
+
+    #rightHeader > * {
+        margin: 1rem;
     }
 
     h1 {
         color:green;
+    }
+
+    h2 {
+        color:white;
     }
 
 </style>
@@ -62,10 +76,11 @@
         <div>
             <div id="headerDiv">
                 <div id="leftHeader">
-                    <h1>Hello {userInfo ? userInfo.firstName : ""} 👋</h1>
+                    <h1>Global Chat</h1>
                 </div>
 
                 <div id="rightHeader">
+                    <h2><i>Hello {userInfo ? userInfo.firstName : ""} 👋</i></h2>
                     <LogOutButton></LogOutButton>
                 </div>
             </div>

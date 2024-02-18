@@ -323,7 +323,7 @@
                                             
                                             {requestTranslatedMessage(message.text)}
                                             
-                                            {#key translatedMessages}
+                                            {#key translatedMessages[message.text]}
                                                 <p>{translatedMessages[message.text]}</p>
                                             {/key}
                                                 

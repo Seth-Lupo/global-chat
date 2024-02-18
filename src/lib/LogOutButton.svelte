@@ -28,4 +28,4 @@
 
 </style>
 
-<button on:click={logOut}>Global Chat</button>
+<button on:click={logOut}><i>Log Out</i></button>
