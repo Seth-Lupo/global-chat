@@ -16,4 +16,16 @@
 
 </script>
 
-<button on:click={logOut}> Log Out</button>
+<style>
+  button {
+      background-color: whitesmoke;
+      font-size: 1rem;
+      padding: 1rem;
+      border-radius: 0.25rem;
+      margin: 0.25rem;
+      transition: background-color 0.3s;
+  }
+
+</style>
+
+<button on:click={logOut}>Global Chat</button>

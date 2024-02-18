@@ -42,6 +42,7 @@
 	
     :root {
         font-family: "Raleway";
+		background-color: rgb(245, 245, 245);
         
     }
 

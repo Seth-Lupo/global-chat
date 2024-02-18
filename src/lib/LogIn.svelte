@@ -78,7 +78,10 @@
         background-color: rgb(202, 255, 200);
     }
 
-
+    a {
+        font-size: 1rem;
+        margin: 0.5rem auto;
+    }
 
 </style>
 
@@ -101,12 +104,12 @@
             </div>
         
             <button on:click={handleSubmit}>Submit</button>
+
+            <a href="/sign-up">Do not have an account, click here.</a>
         
         </main>
 
     </SignedOut>
-
-    
 
 </FirebaseApp>
 

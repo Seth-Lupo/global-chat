@@ -24,8 +24,15 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@google-cloud/translate": "^8.1.0",
 		"@svelte-web-fonts/google": "^1.0.4",
+		"country-flag-icons": "^1.5.9",
+		"dotenv": "^16.4.4",
 		"firebase": "^9.23.0",
+		"firebase-tools": "^13.3.0",
+		"maplibre-gl": "^4.0.1",
+		"svelte-flagpack": "^1.0.0",
+		"svelte-flags": "^1.0.1",
 		"sveltefire": "^0.4.5"
 	}
 }
