@@ -1,38 +1,17 @@
-# create-svelte
+The Project: Include your team name, and 2 to 3 sentences describing the goal of your project. What were your goals, and what did you accomplish over the weekend?
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+HoustonHacks
 
-## Creating a project
+Our goal was to connect university students around the world while removing the language barrier.
+We accomplished making a real time chat application that automatically translates to the native
+language of the person.
 
-If you're seeing this, you've probably already done this step. Congrats!
+The Team: Include the names of all your team members. For each, describe in a few words how they contributed to the project!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Benson Jiang- Designed the implemented the authentication and
+Brian Becker- Designed and implemented the landing page with routes
+Placide Shenma- Designed the chat UI and planned out structuring the project
+Seth Lupo- Design the backend and connected the Google Translate API to create a real time chat.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Usage: Sign into the app with your email and password
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
